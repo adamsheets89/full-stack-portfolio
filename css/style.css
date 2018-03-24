@@ -10,7 +10,9 @@
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+    line-height: 26.4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #school-zone {
@@ -28,3 +30,7 @@
 /* .third-row {
     display: none;
 } */
+
+.bottom-row {
+    text-align: center;
+}
