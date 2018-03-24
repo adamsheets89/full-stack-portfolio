@@ -1,0 +1,30 @@
+.img-rounded {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron {
+    font-family: Georgia;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#school-zone {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 15px;
+}
+
+#sos {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15px;
+}
+
+/* .third-row {
+    display: none;
+} */
