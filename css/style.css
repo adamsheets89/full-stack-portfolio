@@ -4,6 +4,10 @@
     margin-right: auto;
 }
 
+.container {
+    background-color: white;
+}
+
 .jumbotron {
     font-family: Georgia;
 	font-size: 24px;
@@ -13,7 +17,9 @@
     line-height: 26.4px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: beige;
 }
+
 
 #school-zone {
     max-width: 100%;
@@ -27,10 +33,20 @@
     margin-top: 15px;
 }
 
+body {
+    /* background-image: url("../images/ukv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: beige;
+}
+
 /* .third-row {
     display: none;
 } */
 
 .bottom-row {
     text-align: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
