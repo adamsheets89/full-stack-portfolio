@@ -3,44 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
     <title>Adam Sheets</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
 <body>
-
-    <div class="jumbotron">
-        <h2 class="text-center">adam richard sheets</h2>
-        <h4 class="text-center">chicago-based full stack web developer</h4>
-    </div>
-    <div class="container">
-        <ul class="nav nav-pills">
-            <li role="presentation">
-                <a id="home">Me</a>
-            </li>
-            <li role="presentation">
-                <a id="projects">Projects</a>
-            </li>
+    <nav>
+        <ul>
+            <li id="home">Adam Sheets</li>
+            <!-- <li>Projects</li> -->
+            <a href="mailto:adamsheets89@gmail.com?" target="_top" class="fa fa-envelope" style="font-size: 42px">
+            </a>
+            <a href="https://linkedin.com/in/adam-sheets-baa29478" target="_blank" class="fa fa-linkedin" style="font-size: 42px">
+            </a>
+            <a href="https://github.com/adamsheets89/" target="_blank" class="fa fa-github" style="font-size: 42px">
+            </a>
         </ul>
-        <!-- <div class="picture">
-            <img src="images/me-thumbs-up.png" class="img-rounded" alt="selfie">
-        </div> -->
+        <ul>
+            <li id="summary">Chicago-based full stack web developer</li>
+        </ul>
+    </nav>
+    <div class="container">
         <div class="second-row">
-            <div class="col-md-6 col-xs-12">
-                <br>
+            <div class="col-md-6 col-xs-6">
                 <p id="bio">I grew up in a small town in Northwest Indiana before moving to Chicago in 2011. I'm skilled in both front-end
                     and back-end web development, but have a stronger interest in using javascript to make browsers cool.
                     Like all things in my life, I like to keep my applications simple. Chicago sports take up way too much
                     of my time, but that's just the way it is. Also loves blues and rock n roll.
                 </p>
             </div>
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-6 col-xs-6">
+                <!-- <img src="images/solo.png" id="photo"> -->
             </div>
         </div>
         <div class="third-row">
@@ -50,25 +47,23 @@
                         <img src="images/SchoolZone.png" id="school-zone" alt="school-zone">
                     </a>
                 </div>
-                <div class="col-md-3 col-xs-12">
-                    <br>
-                    <br>
-                    <h3 class="text-center">SchoolZone</h3>
+                <div class="col-md-3 col-xs-12" id=school-info>
+                    <h3 class="text-center" id="school-header">SchoolZone</h3>
                     <p class="app-info">Front-end application created with HTML, CSS, JavaScript, and jQuery. Designed for young parents to assist
                         in locating the best schools in a given area.</p>
                 </div>
             </div>
+        </div>
             <br>
+        <div class="fourth-row">
             <div class="col-12">
                 <div class="col-md-9 col-xs-12">
                     <a href="https://sos-fullstack.herokuapp.com/" target="_blank">
                         <img src="images/SOS.png" id="sos" alt="SOS">
                     </a>
                 </div>
-                <div class="col-md-3 col-xs-12">
-                    <br>
-                    <br>
-                    <h3 class="text-center">SOS</h3>
+                <div class="col-md-3 col-xs-12" id="sos-info">
+                    <h3 class="text-center" id="sos-header">SOS</h3>
                     <p class="app-info">Full-stack application created with HTML, CSS, JavaScript, jQuery, Node.js, Express,js, and MySQL. Designed
                         for women to provide a social-safety net of close friends, all of whom can be notifed with a simple
                         push of button if the user finds oneself in duress.</p>
@@ -76,29 +71,13 @@
             </div>
         </div>
     </div>
-    <footer>
-        <br>
-        <div class="bottom-row">
-            <div class="col-12">
-                <a href="https://linkedin.com/in/adam-sheets-baa29478" target="_blank">
-                    <img class="image-responsive" src="https://sf.iabc.com/wp-content/uploads/photo.jpg" width="5%" height="5%" class="social"
-                        alt="LinkedIn" />
-                </a>
-                <a href="https://github.com/adamsheets89/" target="_blank">
-                    <img class="image-responsive" src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="GitHub" width="5%" height="5%"
-                        class="social" />
-                </a>
-                <a href="https://www.builtinchicago.org/member/adamsheets89/93447" target="_blank">
-                    <img class="image-responsive" src="http://builtin.com/themes/custom/levelplus/images/builtin_logo_footer.svg" width="5%"
-                        height="5%" class="social" alt="built in chicago" />
-                </a>
-            </div>
-        </div>
-    </footer>
+    <footer class="footer">
 
+
+        <div class="copyright">© 2018 Adam Sheets</div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="javascript/portfolio.js"></script>
-
 </body>
 
 </html>
