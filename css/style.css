@@ -102,10 +102,22 @@ li {
     .app-info {
         color: black
     }
-}
-
-@media screen and (max-width: 990px) {
+    
     #bio {
         color: black;
     }
 }
+
+@media screen and (max-width: 990px) {
+
+    #school-zone {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 660) {
+  
+    #school-zone {
+        margin-top: 0;
+    }
+} 
