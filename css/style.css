@@ -129,5 +129,6 @@ li {
     background-image: url("../images/headshot.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: ghostwhite
 }
 }
