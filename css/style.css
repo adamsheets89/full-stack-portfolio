@@ -1,7 +1,7 @@
 body {
-    font-family: Georgia;
+
     background-color: whitesmoke;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     background-image: url("../images/headshot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,9 +49,8 @@ li {
 #bio {
     margin: 12% 0% 10% 0%;
     float: left;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
-    color: black;
+    color: ghostwhite;
     
 }
 
@@ -89,17 +88,24 @@ li {
 }
 
 .app-info {
-    color: black;
+    color: ghostwhite;
 }
 
 @media screen and (max-width: 1200px) {
     body {
-    font-family: Georgia;
     background-color: whitesmoke;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     background-image: url("../images/headshot.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: ghostwhite
 }
+    .app-info {
+        color: black
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #bio {
+        color: black;
+    }
 }
