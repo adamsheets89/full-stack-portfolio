@@ -78,23 +78,10 @@ li {
     font-size: 16px;
 }
 
-.bottom-row {
-    text-align: center;
-    background-color:whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-bottom: 0%;
-}
- 
 #school-header {
     color: rgb(204, 85,0);
     text-align: left;
 }
-
-#school-info {
-    margin: 4% 0 0 0;
-}
-
 
 #sos-header {
     color: rgb(204, 85,0);
