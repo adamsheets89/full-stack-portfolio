@@ -111,13 +111,7 @@ li {
 @media screen and (max-width: 990px) {
 
     #school-zone {
-        margin-top: 20%;
+        margin-top: 30%;
     }
 }
 
-@media screen and (max-width: 660) {
-  
-    #school-zone {
-        margin-top: 0;
-    }
-} 
