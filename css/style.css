@@ -1,9 +1,9 @@
 body {
-  background-color: whitesmoke;
+  background-color: rgba(163, 189, 206, 0.986);
   font-family: Verdana, Geneva, sans-serif;
   background-image: url("../images/headshot.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 nav {
@@ -64,6 +64,13 @@ li {
   margin-top: 15px;
 }
 
+#friend {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .footer {
   position: relative;
   margin: 3% 0% 0% 0%;
@@ -85,24 +92,22 @@ li {
   text-align: left;
 }
 
+#friend-header {
+  color: rgb(204, 85, 0);
+  text-align: left;
+}
+
 .app-info {
   color: ghostwhite;
 }
 
 @media screen and (max-width: 1200px) {
   body {
-    background-color: whitesmoke;
+    background-color: rgba(163, 189, 206, 0.986);
     font-family: Verdana, Geneva, sans-serif;
     background-image: url("../images/headshot.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-  }
-  .app-info {
-    color: black;
-  }
-
-  #bio {
-    color: black;
   }
 }
 
@@ -110,4 +115,7 @@ li {
   #school-zone {
     margin-top: 30%;
   }
-}
+  
+  .fifth-row{
+   float: left;;
+  }
