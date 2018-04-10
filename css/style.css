@@ -115,7 +115,26 @@ li {
   #school-zone {
     margin-top: 30%;
   }
-  
-  .fifth-row{
-   float: left;;
+
+  .fifth-row {
+    float: left;
   }
+}
+
+@media screen and (max-width: 480px) {
+  li {
+    font-size: 46px;
+  }
+
+  #summary {
+    font-size: 36px;
+  }
+
+  #bio {
+    font-size: 30px;
+  }
+
+  .app-info {
+    font-size: 30px;
+  }
+}
